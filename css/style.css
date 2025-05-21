@@ -118,8 +118,8 @@ nav ul li a:hover{
 /*   upcoming events  */
 
 .event h1{
-    font-size: 70px;
-    text-transform: capitalize;
+    font-size: 60px;
+    text-transform: uppercase;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -128,7 +128,7 @@ nav ul li a:hover{
 }
 .event span{
     height: 5px;
-    width: 180px;
+    width: 240px;
     border-radius: 5px;
     background-color: red;
     display: inline-block;
@@ -204,7 +204,7 @@ nav ul li a:hover{
 
 .explore-item span {
     height: 5px;
-    width: 150px;
+    width: 190px;
     display: block;
     background-color: red;
     border-radius: 7px;
@@ -222,9 +222,10 @@ nav ul li a:hover{
     text-transform: capitalize;
     font-size: 24px;
 }
+
+
 /* tour section */
 
-/* tour */
 .tour-main {
     margin: 80px 0;
     display: flex;
@@ -234,9 +235,10 @@ nav ul li a:hover{
     padding: 14px;
 }
 
-.tour-item h4 {
+.tour-item h4{
     font-size: 40px;
     margin: 0 0 10px 0;
+    text-transform: uppercase;
 }
 
 .tour-item span {
