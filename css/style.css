@@ -22,6 +22,7 @@ header{
     min-height: 100vh;
      font-weight: 700;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     background-color: rgba(27, 27, 27, 0.772);
@@ -211,6 +212,7 @@ nav ul li a:hover{
 
 .explore-item p {
     margin: 30px 0;
+    font-size: 24px;
 }
 
 .explore-item a {
@@ -218,6 +220,7 @@ nav ul li a:hover{
     text-decoration: none;
     letter-spacing: 2px;
     text-transform: capitalize;
+    font-size: 24px;
 }
 /* tour section */
 
@@ -238,7 +241,7 @@ nav ul li a:hover{
 
 .tour-item span {
     height: 5px;
-    width: 150px;
+    width: 245px;
     display: block;
     background-color: red;
     border-radius: 7px;
@@ -246,10 +249,12 @@ nav ul li a:hover{
 
 .tour-item p {
     margin: 40px 0;
+    font-size: 24px;
+
 }
 
 .tour-item button {
-    padding: 14px 30px;
+    padding: 14px 25px;
     border-radius: 30px;
     background-color: red;
     border-radius: 30px;
