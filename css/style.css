@@ -249,13 +249,13 @@ nav ul li a:hover{
 }
 
 .tour-item button {
-    padding: 17px 34px;
+    padding: 14px 30px;
     border-radius: 30px;
     background-color: red;
-    border-radius: 50px;
+    border-radius: 30px;
     color: rgb(215, 196, 196);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     text-transform: capitalize;
     letter-spacing: 2px;
 }
@@ -265,7 +265,6 @@ nav ul li a:hover{
     transition: 0.4s;
 }
 
-.tour-item img {}
 
 .img1 {
     height: 350px;
