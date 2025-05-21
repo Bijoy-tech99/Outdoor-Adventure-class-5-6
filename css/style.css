@@ -1,0 +1,303 @@
+*{
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+img{
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 70px;
+}
+
+header{
+    background: url(../images/sunset-beach.jpg);
+    width: 100%;
+    min-height: 100vh;
+     font-weight: 700;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(27, 27, 27, 0.772);
+    background-blend-mode: multiply;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 60px;
+    padding: 30px 0px;
+}
+.logo a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+    font-size: 19px;
+
+}
+.logo a span{
+    font-weight: 100;
+
+}
+nav ul{
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 0px 0px 61px;
+    text-transform: capitalize;
+    display: inline;
+}  
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+}
+nav ul li a:hover{
+    background-color: red;
+    padding: 14px 10px;
+    border-radius: 6px;
+    transform: 0.3s;
+    cursor: pointer;
+
+}
+
+
+/* banner */
+
+.banner{
+    text-align: center;
+    color: white;
+    padding: 100px 0px;
+}
+.banner h3 {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.banner span{
+    height: 5px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: red;
+    display: inline-block;
+
+}
+.banner h1 {
+    font-weight: 600;
+}
+
+.banner button {
+    background-color: red;
+    border-radius: 30px;
+    padding: 17px 34px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.banner button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+/*   upcoming events  */
+
+.event h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.event{
+    text-align: center;
+}
+.event span{
+    height: 5px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: red;
+    display: inline-block;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    padding: 50px 50px;
+}
+.event-pic img{
+    width: 100%;
+    height: 320px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    object-fit: cover;
+}
+.event-pic h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.event-pic h4{
+    margin: 5px 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.event-pic a{
+    text-decoration: none;
+    color: red;
+    font-size: 23px;
+}
+.event-pic{
+    display: flex;
+    gap: 0px;
+    border-radius: 20px;
+    align-items: center;
+    display: block;
+}
+
+/* explore */
+
+
+.explore-world {
+    background-image: url(../images/father-daughter.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 255, 0.452);
+    background-size: cover;
+    padding: 100px 0;
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    justify-content: right;
+}
+
+.explore-item {
+    width: 50%;
+    padding-right: 50px;
+    text-align: left !important;
+}
+
+.explore-item h3 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.explore-item span {
+    height: 5px;
+    width: 150px;
+    display: block;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.explore-item p {
+    margin: 30px 0;
+}
+
+.explore-item a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+/* tour section */
+
+/* tour */
+.tour-main {
+    margin: 80px 0;
+    display: flex;
+}
+
+.tour-item {
+    padding: 14px;
+}
+
+.tour-item h4 {
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+.tour-item span {
+    height: 5px;
+    width: 150px;
+    display: block;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.tour-item p {
+    margin: 40px 0;
+}
+
+.tour-item button {
+    padding: 17px 34px;
+    border-radius: 30px;
+    background-color: red;
+    border-radius: 50px;
+    color: rgb(215, 196, 196);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.tour-item button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.tour-item img {}
+
+.img1 {
+    height: 350px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+.img2 {
+    height: 450px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 40px 4rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 27px;
+    flex-wrap: wrap;
+    color: white;
+}
+.foot ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+}
+.about h3{
+    font-size: 30px;
+}
+.about p{
+    font-size: 24px;
+}
