@@ -41,8 +41,7 @@ header{
     text-transform: uppercase;
     text-decoration: none;
     margin: 0;
-    font-size: 19px;
-
+    font-size: 25px;
 }
 .logo a span{
     font-weight: 100;
@@ -60,8 +59,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 19px;
-
+    font-size: 25px;
 }
 nav ul li a:hover{
     background-color: red;
@@ -82,14 +80,14 @@ nav ul li a:hover{
 }
 .banner h3 {
     margin: 20px 0px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 10px;
 }
 .banner span{
     height: 5px;
-    width: 180px;
+    width: 200px;
     border-radius: 5px;
     background-color: red;
     display: inline-block;
@@ -138,7 +136,7 @@ nav ul li a:hover{
     justify-content: center;
     text-align: center;
     gap: 30px;
-    padding: 50px 50px;
+    padding: 60px 50px;
 }
 .event-pic img{
     width: 100%;
@@ -154,17 +152,21 @@ nav ul li a:hover{
 .event-pic h3{
     font-size: 30px;
     font-weight: 600;
-    margin: 10px 0px;
+    margin: 19px 0px 24px 0px;
+    text-transform: uppercase;
 }
 .event-pic h4{
-    margin: 5px 0px;
+    margin: 20px 0px;
     font-size: 24px;
     font-weight: 500;
+    line-height: 35px;
 }
 .event-pic a{
     text-decoration: none;
     color: red;
     font-size: 23px;
+    padding: 20px 0px 20px 0px;
+    /* margin: 20px 0px 20px 0px; */
 }
 .event-pic{
     display: flex;
@@ -189,6 +191,7 @@ nav ul li a:hover{
     color: white;
     margin-top: 50px;
     justify-content: right;
+    min-height: 63vh;
 }
 
 .explore-item {
@@ -227,23 +230,23 @@ nav ul li a:hover{
 /* tour section */
 
 .tour-main {
-    margin: 80px 0;
+    margin: 80px 35px;
     display: flex;
 }
 
 .tour-item {
-    padding: 14px;
+    padding: 14px 12px;
 }
 
-.tour-item h4{
-    font-size: 40px;
-    margin: 0 0 10px 0;
+.tour-item  h3 {
+    font-size: 60px;
+    margin-bottom: 0;
     text-transform: uppercase;
 }
 
 .tour-item span {
     height: 5px;
-    width: 245px;
+    width: 300px;
     display: block;
     background-color: red;
     border-radius: 7px;
@@ -255,21 +258,13 @@ nav ul li a:hover{
 
 }
 
-.tour-item button {
-    padding: 14px 25px;
-    border-radius: 30px;
-    background-color: red;
-    border-radius: 30px;
-    color: rgb(215, 196, 196);
-    font-weight: 600;
-    font-size: 17px;
+.tour-item a{
+    text-decoration: none;
+    color: red;
+    font-size: 23px;
+    padding: 20px 0px 20px 0px;
     text-transform: capitalize;
     letter-spacing: 2px;
-}
-.tour-item button:hover {
-    background-color: transparent;
-    cursor: pointer;
-    transition: 0.4s;
 }
 
 
@@ -277,17 +272,19 @@ nav ul li a:hover{
     height: 350px;
     object-fit: cover;
     margin: 0 0 20px 0;
+    border-radius: 5px;
 }
 
 .img2 {
     height: 450px;
     object-fit: cover;
     margin: 0 0 20px 0;
+    border-radius: 5px;
 }
 
 /* footer */
 footer{
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.877);
     padding: 40px 4rem;
     display: flex;
     align-items: baseline;
@@ -300,10 +297,38 @@ footer{
     list-style: none;
     text-decoration: none;
     font-size: 24px;
+    color: white;
+    line-height: 32px;
+}
+.about ul li a{
+    height: 9px;
+    width: 9px;
+    text-decoration: none;
 }
 .about h3{
     font-size: 30px;
+    text-transform: capitalize;
+}
+.about span {
+    height: 5px;
+    width: 308px;
+    display: block;
+    background-color: red;
+    border-radius: 7px;
+    margin: 0;
+}
+.media {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about ul li h4{
+    margin: 10px 0px;
 }
 .about p{
     font-size: 24px;
+}
+.fab{margin: 17px;
+    font-size: 40px;
+    color: white;
+
 }
